@@ -23,77 +23,12 @@ interface Feature {
 // - alt: The alt text of the image (if type is 'image')
 const features = [
   {
-    title: "Emails",
+    title: "Professional Custom Website",
     description:
-      "Send transactional emails, setup your DNS to avoid spam folder (DKIM, DMARC, SPF in subdomain), and listen to webhook to receive & forward emails",
-    type: "video",
-    path: "https://videos.pexels.com/video-files/7693403/7693403-sd_640_360_25fps.mp4",
-    format: "video/mp4",
-    svg: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth={1.5}
-        stroke="currentColor"
-        className="w-6 h-6"
-      >
-        <path
-          strokeLinecap="round"
-          d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25"
-        />
-      </svg>
-    ),
-  },
-  {
-    title: "Payments",
-    description:
-      "Create checkout sessions, handle webhooks to update user's account (subscriptions, one-time payments...) and tips to setup your account & reduce chargebacks",
+      "A stunning, mobile-first website designed for your business. Showcases your services, high-quality photos, customer reviews, and a prominent 'Book Now' button. Built and live in 48 hours.",
     type: "image",
-    path: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    alt: "A computer",
-    svg: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth={1.5}
-        stroke="currentColor"
-        className="w-6 h-6"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z"
-        />
-      </svg>
-    ),
-  },
-  {
-    title: "Authentication",
-    description:
-      "Magic links setup, login with Google walkthrough, save user in MongoDB/Supabase, private/protected pages & API calls",
-    svg: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth={1.5}
-        stroke="currentColor"
-        className="w-6 h-6"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
-        />
-      </svg>
-    ),
-  },
-  {
-    title: "Style",
-    description:
-      "Components, animations & sections (like this features section), 20+ themes with daisyUI, automatic dark mode",
+    path: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
+    alt: "A modern responsive website mockup",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -107,6 +42,78 @@ const features = [
           strokeLinecap="round"
           strokeLinejoin="round"
           d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "SMS Booking Automation",
+    description:
+      "Clients pick a slot from your calendar directly on your site. The system immediately sends them a confirmation text message via Twilio, and follows up with a reminder 24 hours before their appointment.",
+    type: "image",
+    path: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop",
+    alt: "SMS notifications on phone screen",
+    svg: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        className="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "Automated Schedule Logging",
+    description:
+      "No manual data entry. Every time a client books, their details, selected service, and booking time are automatically logged into Google Sheets or Microsoft Excel via Zapier.",
+    type: "image",
+    path: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+    alt: "Dashboard data charts and tables",
+    svg: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        className="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75c.621 0 1.125.504 1.125 1.125v4.5H4.5v-4.5c0-.621.504-1.125 1.125-1.125z"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "AI SMS Receptionist (powered by Claude)",
+    description:
+      "When customers text questions to your business line, our built-in AI receptionist responds instantly to answer questions about your services, pricing, and availability.",
+    type: "image",
+    path: "https://images.unsplash.com/photo-1531747118685-ca8fa6e08806?q=80&w=2070&auto=format&fit=crop",
+    alt: "Artificial intelligence concept visualization",
+    svg: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        className="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M9.813 15.904L9 21m0 0l-.813-5.096L9 21zm0 0h6m-6 0H3m12.813-5.096L15 21m0 0l.813-5.096L15 21zm0 0h3M9 10.5V3m0 0L7.5 4.5M9 3l1.5 1.5M15 10.5V6m0 0l-1.5 1.5M15 6l1.5 1.5"
         />
       </svg>
     ),
@@ -216,9 +223,9 @@ const FeaturesAccordion = () => {
     >
       <div className="px-8">
         <h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight mb-12 md:mb-24">
-          All you need to ship your startup fast
+          Everything You Need to Automate Your Bookings
           <span className="bg-neutral text-neutral-content px-2 md:px-4 ml-1 md:ml-1.5 leading-relaxed whitespace-nowrap">
-            and get profitable
+            & Focus on the Job
           </span>
         </h2>
         <div className=" flex flex-col md:flex-row gap-12 md:gap-24">

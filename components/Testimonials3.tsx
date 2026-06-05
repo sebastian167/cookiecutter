@@ -10,24 +10,22 @@ const list: {
   img?: string | StaticImageData;
 }[] = [
   {
-    // Optional, use for social media like Twitter. Does not link anywhere but cool to display
-    username: "marclou",
-    // REQUIRED
-    name: "Marc Lou",
-    // REQUIRED
-    text: "Really easy to use. The tutorials are really useful and explains how everything works. Hope to ship my next project really fast!",
-    // Optional, a statically imported image (usually from your public folder—recommended) or a link to the person's avatar. Shows a fallback letter if not provided
-    img: "https://pbs.twimg.com/profile_images/1514863683574599681/9k7PqDTA_400x400.jpg",
+    username: "barber_carlos",
+    name: "Carlos R.",
+    text: "Christian built my barbershop site and configured Twilio reminders in a day. I used to miss 4-5 bookings a week because I was busy styling. Now customers book online and get automatic texts. It paid for itself in week one.",
+    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&w=150&auto=format&fit=crop",
   },
   {
-    username: "the_mcnaveen",
-    name: "Naveen",
-    text: "Setting up everything from the ground up is a really hard, and time consuming process. What you pay for will save your time for sure.",
+    username: "clean_miami",
+    name: "Jessica D.",
+    text: "I spent hours trying to configure booking buttons on Wix. Christian handled all of it, synced the calendar to my Google Calendar, and set up a Google Sheet that logs customer info instantly. Couldn't recommend Cookie Cutter enough!",
+    img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&w=150&auto=format&fit=crop",
   },
   {
-    username: "wahab",
-    name: "Wahab Shaikh",
-    text: "Easily saves 15+ hrs for me setting up trivial stuff. Now, I can directly focus on shipping features rather than hours of setting up the same technologies from scratch. Feels like a super power! :D",
+    username: "landscaper_rob",
+    name: "Robert M.",
+    text: "The AI text receptionist is insane. When clients text our lawn service number after hours asking about prices, it answers them immediately and drops our booking link. Best $80/mo I've ever spent.",
+    img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&w=150&auto=format&fit=crop",
   },
 ];
 
@@ -87,12 +85,11 @@ const Testimonials3 = () => {
         <div className="flex flex-col text-center w-full mb-20">
           <div className="mb-8">
             <h2 className="sm:text-5xl text-4xl font-extrabold text-base-content">
-              212 makers are already shipping faster!
+              Local Businesses Already Growing!
             </h2>
           </div>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-base-content/80">
-            Don&apos;t take our word for it. Here&apos;s what they have to say
-            about ShipFast.
+            See how small service companies automate bookings and stop missing calls.
           </p>
         </div>
 

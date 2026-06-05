@@ -57,23 +57,23 @@ const TOS = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: May 5, 2025
+          {`Last Updated: June 5, 2026
 
-Welcome to FeNAgO!
+Welcome to Cookie Cutter!
 
-These Terms of Service ("Terms") govern your use of the FeNAgO website at https://fenago.com ("Website") and the services provided by FeNAgO. By using our Website and services, you agree to these Terms.
+These Terms of Service ("Terms") govern your use of the Cookie Cutter website at https://cookiecutter.io ("Website") and the services provided by Cookie Cutter. By using our Website and services, you agree to these Terms.
 
-1. Description of FeNAgO
+1. Description of Cookie Cutter
 
-FeNAgO is a platform that offers a Next.js agentic SaaS boilerplate to assist entrepreneurs in building AI-powered applications more efficiently.
+Cookie Cutter provides done-for-you professional website building and booking calendar automation setup services for local service businesses.
 
 2. Ownership and Usage Rights
 
-When you purchase a package from FeNAgO, you gain the right to download and use the code provided for creating applications. You own the code you create but do not have the right to resell it. We offer a full refund within 7 days of purchase, as specified in our refund policy.
+When you purchase a design and setup package from Cookie Cutter, you own the website design and layout created for your business. The monthly subscription fee covers site hosting, ongoing text edits, automated SMS notifications, and integrations.
 
 3. User Data and Privacy
 
-We collect and store user data, including name, email, and payment information, as necessary to provide our services. For details on how we handle your data, please refer to our Privacy Policy at https://fenago.com/privacy-policy.
+We collect and store user data, including name, email, and payment information, as necessary to provide our services. For details on how we handle your data, please refer to our Privacy Policy at https://cookiecutter.io/privacy-policy.
 
 4. Non-Personal Data Collection
 
@@ -81,15 +81,15 @@ We use web cookies to collect non-personal data for the purpose of improving our
 
 5. Governing Law
 
-These Terms are governed by the laws of France.
+These Terms are governed by the laws of the State of Florida, USA.
 
 6. Updates to the Terms
 
 We may update these Terms from time to time. Users will be notified of any changes via email.
 
-For any questions or concerns regarding these Terms of Service, please contact us at support@fenago.com.
+For any questions or concerns regarding these Terms of Service, please contact us at support@cookiecutter.io.
 
-Thank you for using FeNAgO!`}
+Thank you for using Cookie Cutter!`}
         </pre>
       </div>
     </main>

@@ -18,8 +18,8 @@ const links: {
     label: "Pricing",
   },
   {
-    href: "/#testimonials",
-    label: "Reviews",
+    href: "/#industries",
+    label: "Industries",
   },
   {
     href: "/#faq",
@@ -27,7 +27,11 @@ const links: {
   },
 ];
 
-const cta: JSX.Element = <ButtonSignin extraStyle="btn-primary" />;
+const cta: JSX.Element = (
+  <a href="#pricing" className="btn btn-primary">
+    Get Started
+  </a>
+);
 
 // A header with a logo on the left, links in the center (like Pricing, etc...), and a CTA (like Get Started or Login) on the right.
 // The header is responsive, and on mobile, the links are hidden behind a burger button.

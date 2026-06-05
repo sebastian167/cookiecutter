@@ -57,9 +57,9 @@ const PrivacyPolicy = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: May 5, 2025
+          {`Last Updated: June 5, 2026
 
-Thank you for visiting FeNAgO ("we," "us," or "our"). This Privacy Policy outlines how we collect, use, and protect your personal and non-personal information when you use our website located at https://fenago.com (the "Website").
+Thank you for visiting Cookie Cutter ("we," "us," or "our"). This Privacy Policy outlines how we collect, use, and protect your personal and non-personal information when you use our website located at https://cookiecutter.io (the "Website").
 
 By accessing or using the Website, you agree to the terms of this Privacy Policy. If you do not agree with the practices described in this policy, please do not use the Website.
 
@@ -71,7 +71,7 @@ We collect the following personal information from you:
 
 Name: We collect your name to personalize your experience and communicate with you effectively.
 Email: We collect your email address to send you important information regarding your orders, updates, and communication.
-Payment Information: We collect payment details to process your orders securely. However, we do not store your payment information on our servers. Payments are processed by trusted third-party payment processors.
+Payment Information: We collect payment details to process your orders securely. However, we do not store your payment information on our servers. Payments are processed by trusted third-party payment processors (Stripe).
 
 1.2 Non-Personal Data
 
@@ -87,7 +87,7 @@ We do not share your personal data with any third parties except as required for
 
 4. Children's Privacy
 
-FeNAgO is not intended for children under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us at the email address provided below.
+Cookie Cutter is not intended for children under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us at the email address provided below.
 
 5. Updates to the Privacy Policy
 
@@ -97,11 +97,14 @@ We may update this Privacy Policy from time to time to reflect changes in our pr
 
 If you have any questions, concerns, or requests related to this Privacy Policy, you can contact us at:
 
-Email: support@fenago.com
+Email: support@cookiecutter.io
 
-For all other inquiries, please visit our Contact Us page on the Website.
+For all other inquiries, please contact Christian Cardosky directly.
 
-By using FeNAgO, you consent to the terms of this Privacy Policy.`}
+Governing Law
+This Privacy Policy shall be governed by and construed in accordance with the laws of the State of Florida, USA.
+
+By using Cookie Cutter, you consent to the terms of this Privacy Policy.`}
         </pre>
       </div>
     </main>

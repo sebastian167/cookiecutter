@@ -13,22 +13,35 @@ interface FAQItemProps {
 
 const faqList: FAQItemProps[] = [
   {
-    question: "What do I get exactly?",
-    answer: <div className="space-y-2 leading-relaxed">Loreum Ipseum</div>,
-  },
-  {
-    question: "Can I get a refund?",
+    question: "How fast do I get my website?",
     answer: (
       <p>
-        Yes! You can request a refund within 7 days of your purchase. Reach out
-        by email.
+        Your site is fully custom designed, built, and launched in just 48 hours from the time you submit your details, booking preferences, and logo/images.
       </p>
     ),
   },
   {
-    question: "I have another question",
+    question: "Do I need to know anything about technology?",
     answer: (
-      <div className="space-y-2 leading-relaxed">Cool, contact us by email</div>
+      <p>
+        Not at all! Christian handles the setup of your custom domain, the booking calendar integration, and the automated SMS alerts. If you ever need to change prices, add photos, or update text, simply send us a text or email and we will make the changes for you.
+      </p>
+    ),
+  },
+  {
+    question: "What's included in the $80/month hosting & automation fee?",
+    answer: (
+      <p>
+        The retainer covers high-speed secure hosting, unlimited text message booking alerts and reminders (via Twilio), the AI receptionist receptionist answering inbound texts, automated schedule logging, and ongoing edits to your site.
+      </p>
+    ),
+  },
+  {
+    question: "What happens if I decide to cancel?",
+    answer: (
+      <p>
+        There are no contracts. You can cancel your monthly subscription at any time. Once canceled, your site will go offline, and SMS automation integrations will be deactivated.
+      </p>
     ),
   },
 ];

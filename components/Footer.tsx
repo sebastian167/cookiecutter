@@ -62,9 +62,6 @@ const Footer = () => {
                 <Link href="/blog" className="link link-hover">
                   Blog
                 </Link>
-                <a href="/#" target="_blank" className="link link-hover">
-                  Affiliates
-                </a>
               </div>
             </div>
 
