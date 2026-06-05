@@ -1,37 +1,40 @@
-import Image from "next/image";
+import { ShaderAnimation } from "@/components/ui/shader-animation";
 import TestimonialsAvatars from "./TestimonialsAvatars";
-import config from "@/config";
 
 const Hero = () => {
   return (
-    <section className="max-w-7xl mx-auto bg-base-100 flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-20 px-8 py-8 lg:py-20">
-      <div className="flex flex-col gap-10 lg:gap-14 items-center justify-center text-center lg:text-left lg:items-start">
-        <h1 className="font-extrabold text-4xl lg:text-6xl tracking-tight">
-          Your Business Deserves a Real Website.
+    <section className="relative w-full h-[650px] lg:h-[750px] overflow-hidden flex items-center justify-center bg-black">
+      {/* Background WebGL Shader */}
+      <div className="absolute inset-0 z-0 opacity-70">
+        <ShaderAnimation />
+      </div>
+
+      {/* Grid overlay for visual structure */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(0,0,0,0)_50%,rgba(15,23,42,1)_100%)] z-1" />
+
+      {/* Foreground Content */}
+      <div className="relative z-10 max-w-5xl mx-auto px-8 flex flex-col items-center justify-center text-center gap-8 bg-slate-900/60 backdrop-blur-md p-10 lg:p-16 rounded-3xl border border-white/10 shadow-2xl">
+        <h1 className="font-extrabold text-4xl lg:text-6xl tracking-tight text-white leading-tight">
+          Your Business Deserves <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-orange-500 to-yellow-500">
+            A Premium Website
+          </span>
         </h1>
-        <p className="text-lg opacity-80 leading-relaxed">
-          Done-for-you professional websites with fully automated online booking, 
-          built and launched in just 48 hours. No learning complex builders, 
-          no paying agencies thousands. Christian builds it all for you.
+        <p className="text-lg text-slate-300 max-w-2xl leading-relaxed">
+          Done-for-you professional websites with automated booking schedules and 
+          instant SMS reminders. Custom designed, configured, and live in 48 hours. 
+          Christian builds it all for you.
         </p>
-        <a
-          href="#pricing"
-          className="btn btn-primary btn-wide"
-        >
-          Get Your Website →
-        </a>
+        <div className="flex flex-col sm:flex-row items-center gap-4">
+          <a
+            href="#pricing"
+            className="btn btn-primary btn-wide text-black font-bold text-lg hover:scale-105 transition-transform"
+          >
+            Get Your Website →
+          </a>
+        </div>
 
         <TestimonialsAvatars priority={true} />
-      </div>
-      <div className="lg:w-full">
-        <Image
-          src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=2070&auto=format&fit=crop"
-          alt="Cookie Cutter booking automation & website dashboard mockup"
-          className="w-full rounded-2xl shadow-2xl"
-          priority={true}
-          width={500}
-          height={500}
-        />
       </div>
     </section>
   );
